@@ -1,0 +1,34 @@
+[0.024s] Invoking command in '/home/pi/ros2_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_driver
+[0.047s] -- Found ament_cmake_auto: 2.7.3 (/opt/ros/kilted/share/ament_cmake_auto/cmake)
+[0.646s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.658s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.776s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[0.778s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[0.837s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.055s] [31mCMake Error at /opt/ros/kilted/share/io_context/cmake/io_context-extras.cmake:17 (find_package):
+[1.055s]   By not providing "Findasio_cmake_module.cmake" in CMAKE_MODULE_PATH this
+[1.055s]   project has asked CMake to find a package configuration file provided by
+[1.055s]   "asio_cmake_module", but CMake did not find one.
+[1.055s] 
+[1.055s]   Could not find a package configuration file provided by "asio_cmake_module"
+[1.055s]   with any of the following names:
+[1.056s] 
+[1.056s]     asio_cmake_moduleConfig.cmake
+[1.056s]     asio_cmake_module-config.cmake
+[1.056s] 
+[1.056s]   Add the installation prefix of "asio_cmake_module" to CMAKE_PREFIX_PATH or
+[1.056s]   set "asio_cmake_module_DIR" to a directory containing one of the above
+[1.056s]   files.  If "asio_cmake_module" provides a separate development package or
+[1.056s]   SDK, be sure it has been installed.
+[1.056s] Call Stack (most recent call first):
+[1.056s]   /opt/ros/kilted/share/io_context/cmake/io_contextConfig.cmake:41 (include)
+[1.056s]   /opt/ros/kilted/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.056s]   /opt/ros/kilted/share/serial_driver/cmake/serial_driverConfig.cmake:41 (include)
+[1.057s]   /opt/ros/kilted/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.057s]   CMakeLists.txt:14 (ament_auto_find_build_dependencies)
+[1.057s] 
+[1.057s] [0m
+[1.057s] -- Configuring incomplete, errors occurred!
+[1.081s] Invoked command in '/home/pi/ros2_ws/build/vesc_driver' returned '1': AMENT_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_driver
