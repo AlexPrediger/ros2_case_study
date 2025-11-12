@@ -1,0 +1,361 @@
+[0.281s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.281s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8eff4bc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8f1ad190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8f1ad190>>, mixin_verb=('build',))
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.399s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/ros2_case_study'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive' with type 'ros.ament_python' and name 'drive'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['python_setup_py']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/pi/ros2_ws/install
+[0.558s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/kilted
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_target' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.641s] DEBUG:colcon.colcon_core.verb:Building package 'drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_case_study/build/drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_case_study/install/drive', 'merge_install': False, 'path': '/home/pi/ros2_case_study/src/drive', 'symlink_install': False, 'test_result_base': None}
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.641s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_case_study/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_case_study/install/vesc_msgs', 'merge_install': False, 'path': '/home/pi/ros2_case_study/src/vesc/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.642s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_case_study/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_case_study/install/vesc_driver', 'merge_install': False, 'path': '/home/pi/ros2_case_study/src/vesc/vesc_driver', 'symlink_install': False, 'test_result_base': None}
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.642s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_case_study/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_case_study/install/vesc', 'merge_install': False, 'path': '/home/pi/ros2_case_study/src/vesc/vesc', 'symlink_install': False, 'test_result_base': None}
+[0.643s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.645s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_case_study/src/vesc/vesc_msgs' with build type 'ament_cmake'
+[0.646s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_case_study/src/vesc/vesc_msgs'
+[0.663s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros2_case_study/src/drive' with build type 'ament_python'
+[0.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive', 'ament_prefix_path')
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/drive/share/drive/hook/ament_prefix_path.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/drive/share/drive/hook/ament_prefix_path.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/drive/share/drive/hook/ament_prefix_path.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_case_study/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_case_study/install/vesc_msgs
+[1.049s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros2_case_study/src/drive'
+[1.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/src/drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_case_study/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_case_study/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive build --build-base /home/pi/ros2_case_study/build/drive/build install --record /home/pi/ros2_case_study/build/drive/install.log --single-version-externally-managed install_data
+[3.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/src/drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_case_study/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_case_study/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive build --build-base /home/pi/ros2_case_study/build/drive/build install --record /home/pi/ros2_case_study/build/drive/install.log --single-version-externally-managed install_data
+[3.597s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/drive' for CMake module files
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/drive' for CMake config files
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/drive/lib'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/drive/bin'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/drive/lib/pkgconfig/drive.pc'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/drive/lib/python3.12/site-packages'
+[3.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive', 'pythonpath')
+[3.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/drive/share/drive/hook/pythonpath.ps1'
+[3.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/drive/share/drive/hook/pythonpath.dsv'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/drive/share/drive/hook/pythonpath.sh'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/drive/bin'
+[3.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive)
+[3.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/drive/share/drive/package.ps1'
+[3.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_case_study/install/drive/share/drive/package.dsv'
+[3.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/drive/share/drive/package.sh'
+[3.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/drive/share/drive/package.bash'
+[3.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/drive/share/drive/package.zsh'
+[3.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_case_study/install/drive/share/colcon-core/packages/drive)
+[7.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_case_study/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_case_study/install/vesc_msgs
+[7.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_case_study/build/vesc_msgs -- -j4 -l4
+[17.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_case_study/build/vesc_msgs -- -j4 -l4
+[17.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_case_study/build/vesc_msgs
+[18.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[18.079s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs' for CMake module files
+[18.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_case_study/build/vesc_msgs
+[18.080s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs' for CMake config files
+[18.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[18.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[18.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[18.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[18.082s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/lib'
+[18.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[18.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[18.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[18.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[18.084s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/bin'
+[18.084s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[18.084s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages'
+[18.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[18.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[18.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[18.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[18.086s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/bin'
+[18.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[18.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[18.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.sh'
+[18.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.bash'
+[18.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[18.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_case_study/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[18.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[18.090s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs' for CMake module files
+[18.091s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs' for CMake config files
+[18.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[18.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[18.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[18.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[18.094s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/lib'
+[18.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[18.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[18.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[18.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[18.096s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/bin'
+[18.096s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[18.096s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages'
+[18.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[18.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[18.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[18.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[18.100s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_msgs/bin'
+[18.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[18.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[18.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.sh'
+[18.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.bash'
+[18.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[18.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_case_study/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[18.109s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_case_study/src/vesc/vesc_driver' with build type 'ament_cmake'
+[18.109s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_case_study/src/vesc/vesc_driver'
+[18.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc_driver': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ros2_case_study/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_case_study/install/vesc_driver
+[20.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ros2_case_study/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_case_study/install/vesc_driver
+[20.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc_driver': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ros2_case_study/build/vesc_driver -- -j4 -l4
+[43.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ros2_case_study/build/vesc_driver -- -j4 -l4
+[43.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc_driver': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ros2_case_study/build/vesc_driver
+[44.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[44.026s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver' for CMake module files
+[44.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ros2_case_study/build/vesc_driver
+[44.027s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver' for CMake config files
+[44.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[44.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[44.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[44.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[44.029s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/lib'
+[44.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[44.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[44.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[44.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[44.031s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/bin'
+[44.031s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[44.031s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/lib/python3.12/site-packages'
+[44.031s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/bin'
+[44.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.ps1'
+[44.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.dsv'
+[44.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.sh'
+[44.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.bash'
+[44.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.zsh'
+[44.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_case_study/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[44.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[44.036s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver' for CMake module files
+[44.036s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver' for CMake config files
+[44.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[44.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[44.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[44.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[44.039s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/lib'
+[44.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[44.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[44.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[44.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[44.043s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/bin'
+[44.043s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[44.043s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/lib/python3.12/site-packages'
+[44.044s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc_driver/bin'
+[44.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.ps1'
+[44.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.dsv'
+[44.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.sh'
+[44.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.bash'
+[44.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc_driver/share/vesc_driver/package.zsh'
+[44.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_case_study/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[44.049s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_case_study/src/vesc/vesc' with build type 'ament_cmake'
+[44.049s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_case_study/src/vesc/vesc'
+[44.049s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[44.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_driver/lib:/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ros2_case_study/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_case_study/install/vesc
+[45.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_driver/lib:/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ros2_case_study/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_case_study/install/vesc
+[45.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_driver/lib:/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ros2_case_study/build/vesc -- -j4 -l4
+[45.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_driver/lib:/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ros2_case_study/build/vesc -- -j4 -l4
+[45.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_case_study/build/vesc': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_driver/lib:/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ros2_case_study/build/vesc
+[45.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[45.459s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc' for CMake module files
+[45.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_case_study/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ros2_case_study/install/vesc_driver:/home/pi/ros2_case_study/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_case_study/install/vesc_driver/lib:/home/pi/ros2_case_study/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ros2_case_study/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ros2_case_study/build/vesc
+[45.460s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc' for CMake config files
+[45.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[45.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[45.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[45.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[45.462s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/bin'
+[45.463s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/lib/pkgconfig/vesc.pc'
+[45.463s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/lib/python3.12/site-packages'
+[45.463s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/bin'
+[45.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.ps1'
+[45.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_case_study/install/vesc/share/vesc/package.dsv'
+[45.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.sh'
+[45.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.bash'
+[45.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.zsh'
+[45.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_case_study/install/vesc/share/colcon-core/packages/vesc)
+[45.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[45.470s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc' for CMake module files
+[45.471s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc' for CMake config files
+[45.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[45.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[45.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_case_study/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[45.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_case_study/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[45.475s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/bin'
+[45.475s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/lib/pkgconfig/vesc.pc'
+[45.476s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/lib/python3.12/site-packages'
+[45.476s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_case_study/install/vesc/bin'
+[45.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.ps1'
+[45.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_case_study/install/vesc/share/vesc/package.dsv'
+[45.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.sh'
+[45.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.bash'
+[45.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_case_study/install/vesc/share/vesc/package.zsh'
+[45.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_case_study/install/vesc/share/colcon-core/packages/vesc)
+[45.482s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.483s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.498s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.550s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_case_study/install/local_setup.ps1'
+[45.552s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros2_case_study/install/_local_setup_util_ps1.py'
+[45.555s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_case_study/install/setup.ps1'
+[45.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_case_study/install/local_setup.sh'
+[45.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros2_case_study/install/_local_setup_util_sh.py'
+[45.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_case_study/install/setup.sh'
+[45.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_case_study/install/local_setup.bash'
+[45.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_case_study/install/setup.bash'
+[45.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_case_study/install/local_setup.zsh'
+[45.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_case_study/install/setup.zsh'
